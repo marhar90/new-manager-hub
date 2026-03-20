@@ -47,4 +47,12 @@
   article blockquote {
     @apply border-l-4 border-brand-300 pl-4 italic text-stone-600 my-6;
   }
+  article a[href*="amazon.com"],
+  article a[href*="affiliate"],
+  article a[href*="ref="] {
+    @apply inline-flex items-center gap-1 text-sm font-medium text-white bg-brand-600 hover:bg-brand-700 px-4 py-2 rounded-lg no-underline transition-colors my-1;
+  }
+  article a:not([href*="amazon.com"]):not([href*="affiliate"]):not([href*="ref="]) {
+    @apply text-brand-600 underline hover:text-brand-700;
+  }
 }
