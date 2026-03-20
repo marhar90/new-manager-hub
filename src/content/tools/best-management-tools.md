@@ -21,7 +21,7 @@ The templates are solid out of the box — career growth conversations, feedback
 
 **Pricing:** Free for up to 10 meeting notes/month. Pro starts at $7/user/month.
 
-[Check out Fellow](https://fellow.app/?ref=newmanagershub-20)
+[Check out Fellow](https://fellow.app/?ref=newmanagershu-20)
 
 ## 2. 15Five — For Performance and Engagement
 
@@ -35,7 +35,7 @@ Where it really shines is connecting weekly check-ins to quarterly goals and ann
 
 **Pricing:** Starts at $4/user/month for the Engage plan.
 
-[Check out 15Five](https://www.15five.com/?ref=newmanagershub-20)
+[Check out 15Five](https://www.15five.com/?ref=newmanagershu-20)
 
 ## 3. Notion — For Team Knowledge and Documentation
 
@@ -52,7 +52,7 @@ The learning curve is real — Notion can do too much, and the blank page is int
 
 **Pricing:** Free for personal use. Team plan starts at $10/user/month.
 
-[Check out Notion](https://www.notion.so/?ref=newmanagershub-20)
+[Check out Notion](https://www.notion.so/?ref=newmanagershu-20)
 
 ## 4. Slack — For Team Communication (Used Right)
 
@@ -84,7 +84,7 @@ Your team can watch at 2x speed, on their own schedule. Meetings demand synchron
 
 **Pricing:** Free for up to 25 videos. Business starts at $12.50/user/month.
 
-[Check out Loom](https://www.loom.com/?ref=newmanagershub-20)
+[Check out Loom](https://www.loom.com/?ref=newmanagershu-20)
 
 ## 6. Todoist — For Your Own Task Management
 
@@ -98,7 +98,7 @@ The "quick add" feature is the killer app. In any meeting, hit the shortcut, typ
 
 **Pricing:** Free for up to 5 projects. Pro is $5/month.
 
-[Check out Todoist](https://todoist.com/?ref=newmanagershub-20)
+[Check out Todoist](https://todoist.com/?ref=newmanagershu-20)
 
 ## 7. Google Calendar — The Unsexy Essential
 

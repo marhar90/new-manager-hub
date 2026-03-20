@@ -72,7 +72,7 @@ Don't read it cover to cover in one sitting. **Read the chapter for where you ar
 
 Bookmark the "managing managers" chapter for later. You'll need it, and you'll be glad you already read it when that promotion lands.
 
-[Get The Manager's Path on Amazon](https://www.amazon.com/dp/1491973897?tag=newmanagershub-20)
+[Get The Manager's Path on Amazon](https://www.amazon.com/dp/1491973897?tag=newmanagershu-20)
 
 ## Bottom Line
 

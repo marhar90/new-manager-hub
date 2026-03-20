@@ -76,7 +76,7 @@ Build the relationship first. Learn what motivates the person. Show up for them 
 
 If the framework above resonates, yes. The book goes deeper on practical application, has great stories from Scott's time at Google and Apple, and covers situations the summary can't — like how to handle feedback going up to your own boss.
 
-[Get Radical Candor on Amazon](https://www.amazon.com/dp/1250235375?tag=newmanagershub-20)
+[Get Radical Candor on Amazon](https://www.amazon.com/dp/1250235375?tag=newmanagershu-20)
 
 If you're building out your management reading list, see where it ranks on our [best books for first-time managers](/books/best-books-first-time-managers).
 
