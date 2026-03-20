@@ -1,0 +1,21 @@
+---
+import { getCollection, render } from 'astro:content';
+import Article from '../../layouts/Article.astro';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+  return articles
+    .filter(a => a.data.category === 'courses')
+    .map(article => {
+      const slug = article.id.split('/').pop()!.replace(/\.md$/, '');
+      return { params: { slug }, props: { article } };
+    });
+}
+
+const { article } = Astro.props;
+const { Content } = await render(article);
+---
+
+<Article title={article.data.title} description={article.data.description} date={article.data.date} category="courses" tags={article.data.tags}>
+  <Content />
+</Article>

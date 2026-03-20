@@ -1,0 +1,63 @@
+---
+import Base from './Base.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  date: string;
+  category: string;
+  tags?: string[];
+}
+
+const { title, description, date, category, tags = [] } = Astro.props;
+const formattedDate = new Date(date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+const siteUrl = 'https://newmanagerhub.com';
+const pageUrl = new URL(Astro.url.pathname, siteUrl).href;
+
+const jsonLd = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": title,
+  "description": description,
+  "datePublished": date,
+  "author": { "@type": "Organization", "name": "The New Manager Hub" },
+  "publisher": { "@type": "Organization", "name": "The New Manager Hub" },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": pageUrl },
+});
+---
+
+<Base title={title} description={description} type="article" publishedDate={date}>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={jsonLd} />
+  </Fragment>
+
+  <article class="max-w-3xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+    <header class="mb-10">
+      <a href={`/${category}`} class="inline-block text-sm font-medium text-brand-600 uppercase tracking-wide mb-3 hover:text-brand-700">
+        {category}
+      </a>
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-stone-900 leading-tight mb-4" style="font-family: var(--font-serif);">
+        {title}
+      </h1>
+      <p class="text-lg text-stone-500">{formattedDate}</p>
+      {tags.length > 0 && (
+        <div class="flex flex-wrap gap-2 mt-4">
+          {tags.map(tag => (
+            <span class="text-xs bg-stone-100 text-stone-600 px-2 py-1 rounded-full">{tag}</span>
+          ))}
+        </div>
+      )}
+    </header>
+
+    <div class="prose-custom">
+      <slot />
+    </div>
+
+    <footer class="mt-16 pt-8 border-t border-stone-200">
+      <p class="text-sm text-stone-400 italic">
+        This article contains affiliate links. We may earn a commission at no extra cost to you.
+        <a href="/disclosure" class="underline hover:text-stone-600">Full disclosure</a>.
+      </p>
+    </footer>
+  </article>
+</Base>

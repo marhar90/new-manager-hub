@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-50: #fdf8f0;
+  --color-brand-100: #f9eddb;
+  --color-brand-200: #f2d7b0;
+  --color-brand-300: #e9bc7e;
+  --color-brand-400: #df9a4a;
+  --color-brand-500: #d4802a;
+  --color-brand-600: #b86420;
+  --color-brand-700: #994b1d;
+  --color-brand-800: #7d3d1f;
+  --color-brand-900: #67331c;
+
+  --color-surface: #fafaf9;
+  --color-text: #1c1917;
+  --color-text-muted: #78716c;
+  --color-border: #e7e5e4;
+
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Lora', Georgia, serif;
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-text antialiased;
+    font-family: var(--font-sans);
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-serif);
+  }
+  article h2 {
+    @apply text-2xl font-bold mt-10 mb-4 text-stone-900;
+  }
+  article h3 {
+    @apply text-xl font-semibold mt-8 mb-3 text-stone-800;
+  }
+  article p {
+    @apply mb-4 leading-relaxed text-stone-700;
+  }
+  article ul, article ol {
+    @apply mb-4 pl-6 space-y-2 text-stone-700;
+  }
+  article ul { @apply list-disc; }
+  article ol { @apply list-decimal; }
+  article strong { @apply text-stone-900; }
+  article blockquote {
+    @apply border-l-4 border-brand-300 pl-4 italic text-stone-600 my-6;
+  }
+}

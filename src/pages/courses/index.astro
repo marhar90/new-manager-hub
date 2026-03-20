@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+
+const articles = (await getCollection('articles'))
+  .filter(a => a.data.category === 'courses')
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+
+function articleHref(article: any) {
+  const slug = article.id.split('/').pop()!.replace(/\.md$/, '');
+  return `/courses/${slug}`;
+}
+---
+
+<Base title="Best Courses for New Managers" description="Online courses that actually teach you to manage people. Udemy, Coursera, LinkedIn Learning — compared and ranked.">
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
+    <h1 class="text-3xl sm:text-4xl font-bold text-stone-900 mb-3" style="font-family: var(--font-serif);">🎓 Courses</h1>
+    <p class="text-lg text-stone-500 mb-10">Online courses worth your time and money — honest comparisons included.</p>
+    <div class="grid gap-5">
+      {articles.map(article => (
+        <ArticleCard title={article.data.title} description={article.data.description} href={articleHref(article)} category="courses" date={article.data.date} />
+      ))}
+    </div>
+  </section>
+</Base>

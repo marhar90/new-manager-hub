@@ -1,0 +1,25 @@
+---
+interface Props {
+  heading?: string;
+  text?: string;
+  buttonText?: string;
+  buttonUrl?: string;
+}
+
+const {
+  heading = "New to management?",
+  text = "Get our top book picks and practical tips — no fluff, just what works.",
+  buttonText = "See Our #1 Pick",
+  buttonUrl = "/books",
+} = Astro.props;
+---
+
+<div class="bg-gradient-to-r from-brand-50 to-brand-100 border border-brand-200 rounded-xl p-6 sm:p-8 my-8 text-center">
+  <h3 class="text-xl font-bold text-stone-900 mb-2" style="font-family: var(--font-serif);">{heading}</h3>
+  <p class="text-stone-600 mb-4 max-w-lg mx-auto">{text}</p>
+  <a href={buttonUrl}
+     class="inline-flex items-center gap-2 bg-brand-600 hover:bg-brand-700 text-white font-medium px-6 py-3 rounded-lg transition-colors">
+    {buttonText}
+    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+  </a>
+</div>

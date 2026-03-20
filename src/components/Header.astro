@@ -1,0 +1,57 @@
+---
+const navItems = [
+  { label: 'Books', href: '/books' },
+  { label: 'Courses', href: '/courses' },
+  { label: 'Tools', href: '/tools' },
+  { label: 'Advice', href: '/advice' },
+  { label: 'About', href: '/about' },
+];
+---
+
+<header class="border-b border-border bg-white/80 backdrop-blur-sm sticky top-0 z-50">
+  <nav class="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
+    <a href="/" class="flex items-center gap-2 group">
+      <span class="text-2xl">📋</span>
+      <span class="font-bold text-lg text-stone-900 group-hover:text-brand-600 transition-colors" style="font-family: var(--font-serif);">
+        The New Manager Hub
+      </span>
+    </a>
+
+    <!-- Desktop nav -->
+    <ul class="hidden md:flex items-center gap-8">
+      {navItems.map(item => (
+        <li>
+          <a href={item.href} class="text-sm font-medium text-stone-600 hover:text-brand-600 transition-colors">
+            {item.label}
+          </a>
+        </li>
+      ))}
+    </ul>
+
+    <!-- Mobile menu button -->
+    <button id="mobile-toggle" class="md:hidden p-2 text-stone-600" aria-label="Toggle menu">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
+  </nav>
+
+  <!-- Mobile nav -->
+  <div id="mobile-menu" class="hidden md:hidden border-t border-border bg-white">
+    <ul class="px-4 py-4 space-y-3">
+      {navItems.map(item => (
+        <li>
+          <a href={item.href} class="block text-stone-600 hover:text-brand-600 font-medium">
+            {item.label}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</header>
+
+<script>
+  const toggle = document.getElementById('mobile-toggle');
+  const menu = document.getElementById('mobile-menu');
+  toggle?.addEventListener('click', () => menu?.classList.toggle('hidden'));
+</script>

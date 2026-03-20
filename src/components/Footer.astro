@@ -1,0 +1,40 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer class="bg-stone-900 text-stone-400 mt-auto">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div>
+        <p class="font-bold text-white text-lg mb-2" style="font-family: var(--font-serif);">The New Manager Hub</p>
+        <p class="text-sm leading-relaxed">
+          Practical advice, curated recommendations, and honest reviews for first-time people managers.
+        </p>
+      </div>
+      <div>
+        <p class="font-semibold text-stone-200 mb-3 text-sm uppercase tracking-wide">Explore</p>
+        <ul class="space-y-2 text-sm">
+          <li><a href="/books" class="hover:text-white transition-colors">Books</a></li>
+          <li><a href="/courses" class="hover:text-white transition-colors">Courses</a></li>
+          <li><a href="/tools" class="hover:text-white transition-colors">Tools</a></li>
+          <li><a href="/advice" class="hover:text-white transition-colors">Advice</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="font-semibold text-stone-200 mb-3 text-sm uppercase tracking-wide">Legal</p>
+        <ul class="space-y-2 text-sm">
+          <li><a href="/about" class="hover:text-white transition-colors">About</a></li>
+          <li><a href="/disclosure" class="hover:text-white transition-colors">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="border-t border-stone-700 mt-10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-4">
+      <p class="text-xs">&copy; {year} The New Manager Hub. All rights reserved.</p>
+      <p class="text-xs italic">
+        This site contains affiliate links. We may earn a commission at no extra cost to you.
+        <a href="/disclosure" class="underline hover:text-white">Learn more</a>.
+      </p>
+    </div>
+  </div>
+</footer>
