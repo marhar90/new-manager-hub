@@ -4,7 +4,8 @@ import ArticleCard from '../components/ArticleCard.astro';
 import CTABanner from '../components/CTABanner.astro';
 import { getCollection } from 'astro:content';
 
-const allArticles = await getCollection('articles');
+const today = new Date().toISOString().slice(0, 10);
+const allArticles = (await getCollection('articles')).filter(a => a.data.date <= today);
 const featured = allArticles.filter(a => a.data.featured);
 const recent = [...allArticles].sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()).slice(0, 6);
 
