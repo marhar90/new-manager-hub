@@ -7,7 +7,9 @@ import { getCollection } from 'astro:content';
 const today = new Date().toISOString().slice(0, 10);
 const allArticles = (await getCollection('articles')).filter(a => a.data.date <= today);
 const featured = allArticles.filter(a => a.data.featured);
-const recent = [...allArticles].sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()).slice(0, 6);
+const sorted = [...allArticles].sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+const latest = sorted[0];
+const recent = sorted.slice(0, 6);
 
 function articleHref(article: any) {
   const slug = article.id.split('/').pop()!.replace(/\.md$/, '');
@@ -38,9 +40,9 @@ function articleHref(article: any) {
     </div>
   </section>
 
-  <!-- Categories -->
+  <!-- Categories + Latest -->
   <section class="max-w-6xl mx-auto px-4 sm:px-6 -mt-8">
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
       {[
         { emoji: '📚', label: 'Books', desc: 'Best reads for new managers', href: '/books' },
         { emoji: '🎓', label: 'Courses', desc: 'Online learning that works', href: '/courses' },
@@ -53,6 +55,13 @@ function articleHref(article: any) {
           <p class="text-xs text-stone-500 mt-1">{cat.desc}</p>
         </a>
       ))}
+      {latest && (
+        <a href={articleHref(latest)} class="col-span-2 md:col-span-1 bg-brand-50 border-2 border-brand-300 rounded-xl p-5 hover:border-brand-400 hover:shadow-md transition-all group text-center ring-1 ring-brand-200">
+          <span class="text-xs font-bold text-brand-600 uppercase tracking-wide">New</span>
+          <p class="font-bold text-stone-900 group-hover:text-brand-600 transition-colors mt-1 text-sm leading-snug">{latest.data.title}</p>
+          <p class="text-xs text-brand-500 mt-2 font-medium">Read now &rarr;</p>
+        </a>
+      )}
     </div>
   </section>
 
