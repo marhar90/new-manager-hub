@@ -111,3 +111,13 @@ If they're consistently quiet, try changing the format. Some people do better wi
 ## Bottom Line
 
 Your first 1:1 sets the tone for your entire management relationship. Make it about them, not you. Listen more than you talk. Use a shared agenda so they own the conversation. And show up consistently -- every week, prepared, present, and human. The template above will keep you on track, but the real magic happens when your report trusts you enough to tell you what's actually going on. That trust starts in meeting number one.
+
+---
+
+## Recommended Reading
+
+If you found this useful, this is the one book I'd grab next:
+
+**[Radical Candor](https://www.amazon.com/dp/1250235375?tag=newmanagershu-20)** by Kim Scott — "The definitive framework for having honest, productive conversations with your team."
+
+[Get Radical Candor on Amazon](https://www.amazon.com/dp/1250235375?tag=newmanagershu-20)

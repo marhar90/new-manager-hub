@@ -109,3 +109,13 @@ Also worth pairing any course with the right [management tools](/tools/best-mana
 ## Bottom Line
 
 **Start with LinkedIn Learning's "New Manager Foundations" if you need help now.** It's fast, practical, and good enough to build a foundation. Layer on a Coursera specialization later if you want depth. And never pay full price on Udemy — there's literally always a sale. The best course is the one you'll actually finish, so pick based on your schedule, not the syllabus.
+
+---
+
+## Recommended Reading
+
+If you found this useful, this is the one book I'd grab next:
+
+**[The First 90 Days](https://www.amazon.com/dp/1422188612?tag=newmanagershu-20)** by Michael Watkins — "Pair any course with this book — it's the best framework for your transition plan."
+
+[Get The First 90 Days on Amazon](https://www.amazon.com/dp/1422188612?tag=newmanagershu-20)

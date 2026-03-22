@@ -111,3 +111,13 @@ AI won't make you a great manager. Self-awareness, empathy, and doing the hard w
 The managers who'll thrive in the next decade aren't the ones who ignore AI or the ones who over-rely on it. They're the ones who use it as one tool among many — and always remember that the human part is the whole point.
 
 Start small. Pick one thing from this list and try it before your next 1:1. You'll be surprised how much less alone you feel.
+
+---
+
+## Recommended Reading
+
+If you found this useful, this is the one book I'd grab next:
+
+**[The Making of a Manager](https://www.amazon.com/dp/0735219567?tag=newmanagershu-20)** by Julie Zhuo — "AI helps with tactics, but this book gives you the strategic foundation. Read both."
+
+[Get The Making of a Manager on Amazon](https://www.amazon.com/dp/0735219567?tag=newmanagershu-20)

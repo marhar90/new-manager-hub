@@ -95,3 +95,13 @@ Your goal isn't just to give feedback. It's to build a team where feedback flows
 ## Bottom Line
 
 Feedback is a skill, not a personality trait. You learn it by doing it, and the first few times will be messy. Use the SBI method to structure your words, lead with genuine care for the person, and be direct about what needs to change. The managers people remember and respect are the ones who told them the truth when it mattered -- and did it in a way that made them better, not smaller.
+
+---
+
+## Recommended Reading
+
+If you found this useful, this is the one book I'd grab next:
+
+**[Thanks for the Feedback](https://www.amazon.com/dp/0143127136?tag=newmanagershu-20)** by Douglas Stone — "Flips the script — understanding how people receive feedback makes you better at giving it."
+
+[Get Thanks for the Feedback on Amazon](https://www.amazon.com/dp/0143127136?tag=newmanagershu-20)

@@ -127,3 +127,13 @@ For more on building your management skillset, check out our [recommended course
 ## Bottom Line
 
 **Fellow and your calendar are the two non-negotiables.** Everything else is gravy. The biggest mistake new managers make with tools is adopting too many at once. Pick the two that solve your most urgent pain point, get good at them, then add more. The best tool is the one you'll actually use consistently — not the one with the most features.
+
+---
+
+## Recommended Reading
+
+If you found this useful, this is the one book I'd grab next:
+
+**[An Elegant Puzzle](https://www.amazon.com/dp/1732265186?tag=newmanagershu-20)** by Will Larson — "Great tools need great systems thinking. This book teaches you how to design management processes."
+
+[Get An Elegant Puzzle on Amazon](https://www.amazon.com/dp/1732265186?tag=newmanagershu-20)

@@ -90,3 +90,13 @@ This transition takes about three months to normalize. The first few weeks will 
 ## Bottom Line
 
 Managing former peers requires you to be direct about the shift, empathetic about how it feels, and consistent about your standards. Have the uncomfortable conversations early. Set boundaries without being cold. Earn your authority through competence and follow-through, not through power moves. The relationships will change -- your goal is to make sure they evolve into something built on mutual respect rather than dissolving into resentment. Give it time, stay honest, and remember that the awkwardness is temporary. The leadership you build through it is permanent.
+
+---
+
+## Recommended Reading
+
+If you found this useful, this is the one book I'd grab next:
+
+**[The Manager's Path](https://www.amazon.com/dp/1491973897?tag=newmanagershu-20)** by Camille Fournier — "Covers the full arc from IC to manager, including navigating the tricky peer-to-boss transition."
+
+[Get The Manager's Path on Amazon](https://www.amazon.com/dp/1491973897?tag=newmanagershu-20)

@@ -90,3 +90,13 @@ For new manager content, both platforms are strong. But they serve different nee
 ## Bottom Line
 
 **LinkedIn Learning is better for most new managers.** The subscription model encourages exploration, the courses are consistently solid, and the LinkedIn integration is a nice bonus. But if you know exactly what you need and want to go deep on one topic, Udemy's best courses are hard to beat — just do your research before buying. The real answer? Use your company's budget for LinkedIn Learning and your own $15 for the one great Udemy course everyone recommends.
+
+---
+
+## Recommended Reading
+
+If you found this useful, this is the one book I'd grab next:
+
+**[High Output Management](https://www.amazon.com/dp/0679762884?tag=newmanagershu-20)** by Andy Grove — "No course replaces this classic. The original management playbook from Intel's legendary CEO."
+
+[Get High Output Management on Amazon](https://www.amazon.com/dp/0679762884?tag=newmanagershu-20)

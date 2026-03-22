@@ -89,3 +89,13 @@ If you're in your first week and want a concrete plan, check out [the first-week
 ## Bottom Line
 
 You will make these mistakes. Every new manager does. The goal isn't perfection -- it's awareness. Catch yourself micromanaging and step back. Notice you're avoiding a conversation and have it anyway. Realize you spent all day on IC work and recalibrate. The best managers aren't the ones who never stumble; they're the ones who recognize the pattern quickly and adjust. Start paying attention to which of these five traps you're most prone to, and focus your energy there.
+
+---
+
+## Recommended Reading
+
+If you found this useful, this is the one book I'd grab next:
+
+**[The Making of a Manager](https://www.amazon.com/dp/0735219567?tag=newmanagershu-20)** by Julie Zhuo — "Julie Zhuo made every mistake in the book and turned them into the best guide for new managers."
+
+[Get The Making of a Manager on Amazon](https://www.amazon.com/dp/0735219567?tag=newmanagershu-20)

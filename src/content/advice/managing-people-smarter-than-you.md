@@ -109,3 +109,13 @@ A great manager of experts is like a great film director. The actors do the perf
 You don't need to be a better actor than your lead. You need to help them give the performance of their career.
 
 That's the job. And if you do it well, the smartest people you manage won't just tolerate you — they'll want to keep working for you.
+
+---
+
+## Recommended Reading
+
+If you found this useful, this is the one book I'd grab next:
+
+**[Multipliers](https://www.amazon.com/dp/0062663070?tag=newmanagershu-20)** by Liz Wiseman — "The whole book is about how great leaders amplify the intelligence of everyone around them."
+
+[Get Multipliers on Amazon](https://www.amazon.com/dp/0062663070?tag=newmanagershu-20)

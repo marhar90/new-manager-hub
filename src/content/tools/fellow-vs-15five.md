@@ -69,3 +69,13 @@ And if you're still in your first week figuring all this out, start with [the fi
 ## Bottom Line
 
 Fellow wins for new managers because it's simple, fast, and focused. 15Five wins for organizations that want an all-in-one performance platform. But the best 1:1 tool is the one you'll actually use every week. Pick one, commit to it, and focus your energy on the conversations themselves -- that's what your team actually cares about.
+
+---
+
+## Recommended Reading
+
+If you found this useful, this is the one book I'd grab next:
+
+**[Radical Candor](https://www.amazon.com/dp/1250235375?tag=newmanagershu-20)** by Kim Scott — "The best 1:1 tool is useless without the right conversation framework. Start here."
+
+[Get Radical Candor on Amazon](https://www.amazon.com/dp/1250235375?tag=newmanagershu-20)

@@ -80,3 +80,13 @@ For book recommendations that actually help during this transition, check out [t
 ## Bottom Line
 
 Your first week is about earning trust, not making changes. Listen more than you talk. Ask more than you tell. Set up the basic systems -- especially regular 1:1s -- and resist the urge to overhaul everything. The managers who succeed long-term are the ones who invest their first week in understanding the team, not impressing the team.
+
+---
+
+## Recommended Reading
+
+If you found this useful, this is the one book I'd grab next:
+
+**[The Making of a Manager](https://www.amazon.com/dp/0735219567?tag=newmanagershu-20)** by Julie Zhuo — "The best overall guide for your first months as a manager."
+
+[Get The Making of a Manager on Amazon](https://www.amazon.com/dp/0735219567?tag=newmanagershu-20)
